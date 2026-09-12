@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+dist/
+coverage/
+.vercel/
+*.tsbuildinfo
+.env*
+!.env.example
+*.pem
+*.key
+credentials*.json
+npm-debug.log*
+.DS_Store
+.test-build/

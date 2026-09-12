@@ -1,0 +1,6 @@
+batch_id,sampled_at,treatment_history,parameter,value,unit,basis,method,analyte,qualifier,detection_limit,provenance,notes
+SYN-101,2026-09-01,"Synthetic history, no actual treatment",moisture,72,%,wet mass,,,measured,,synthetic,"Synthetic only, not laboratory evidence"
+SYN-101,2026-09-01,"Synthetic history, no actual treatment",totalSolids,28,%,wet mass,,,measured,,synthetic,Synthetic only
+SYN-101,2026-09-01,"Synthetic history, no actual treatment",lead,,mg/kg,dry solids,,,notDetected,0.5,synthetic,Synthetic non-detect with explicit limit
+SYN-102,,,quantity,5,tonne,wet mass,,,measured,,synthetic,Synthetic incomplete batch
+SYN-102,,,eColi,,,,,,notMeasured,,synthetic,Unknown remains unknown

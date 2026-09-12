@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": ".test-build",
+    "rootDir": "src/lib"
+  },
+  "include": [
+    "src/lib/validation/**/*.ts",
+    "src/lib/screening/**/*.ts",
+    "src/lib/demo.ts",
+    "src/lib/types.ts",
+    "src/lib/parameters.ts"
+  ]
+}

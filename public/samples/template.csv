@@ -1,0 +1,2 @@
+batch_id,sampled_at,treatment_history,parameter,value,unit,basis,method,analyte,qualifier,detection_limit,provenance,notes
+BATCH-001,,,moisture,,%,wet mass,,,notMeasured,,userReported,Replace this template row with your reported data
