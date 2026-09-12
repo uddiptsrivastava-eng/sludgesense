@@ -73,7 +73,7 @@ export default function Home() {
   </section>;
   return <div className="app-shell">
     <a className="skip" href="#main">Skip to workspace</a>
-    <aside className="sidebar"><a className="brand" href="/" aria-label="SludgeSense home"><span className="mark" aria-hidden="true">S</span>SludgeSense</a><p className="sidebar-label">REUSE WORKSPACE</p><nav aria-label="Workspace views">{views.map((item, index) => <button key={item} type="button" aria-pressed={view === item} className={view === item ? "nav-item selected" : "nav-item"} onClick={() => setView(item)}><span className="nav-number" aria-hidden="true">0{index + 1}</span>{item}</button>)}</nav><div className="sidebar-bottom"><span className="pill">Stage 4</span><p>Explainable screening<br/>No API key required</p></div></aside>
+    <aside className="sidebar"><a className="brand" href="/" aria-label="SLEDGE2WORTH home"><span className="mark" aria-hidden="true">S</span>SLEDGE2WORTH</a><p className="sidebar-label">REUSE WORKSPACE</p><nav aria-label="Workspace views">{views.map((item, index) => <button key={item} type="button" aria-pressed={view === item} className={view === item ? "nav-item selected" : "nav-item"} onClick={() => setView(item)}><span className="nav-number" aria-hidden="true">0{index + 1}</span>{item}</button>)}</nav><div className="sidebar-bottom"><span className="pill">Stage 4</span><p>Explainable screening<br/>No API key required</p></div></aside>
     <div className="main-shell"><header className="topbar"><span>Sludge quality / Workspace</span><span className="pill">Local demo</span></header>
     <main id="main"><div className="page-title"><div><p className="eyebrow">FROM BATCH DATA TO POSSIBILITIES</p><h1>{view}</h1><p>{view === "Batch assessment" ? "Capture the measurements. Keep the evidence in view." : view === "Reuse comparison" ? "A place to compare pathways and understand the evidence each needs." : "A place to connect reuse barriers with the next steps to investigate."}</p></div></div>
     <div className="demo-banner"><strong>Illustrative demo profile</strong><span>Rules are demonstration assumptions, not regulatory limits. Results do not certify reuse.</span></div>
@@ -97,6 +97,7 @@ export default function Home() {
     <footer><strong>Decision support, not reuse certification.</strong><span>Stage 4 · No data persists after refresh</span></footer></main></div>
   </div>;
 }
+
 
 
 

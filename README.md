@@ -1,4 +1,4 @@
-# SludgeSense
+# SLEDGE2WORTH
 
 Stage 4 hackathon decision-support prototype: validated batch input, browser-only CSV import and explainable, rule-based reuse screening. All screening thresholds are explicitly invented demonstration assumptions, not regulatory limits. No reuse certification or trained AI model is provided.
 
@@ -59,4 +59,5 @@ No authentication, database, payment, IoT, marketplace, AI calls, or treatment c
 No publication/deployment has been performed. Commit source, lockfile, docs and synthetic fixtures through VS Code Source Control when ready. Exclude node_modules, .next, .test-build and real environment files or credentials. .env.example contains placeholders for later optional AI integration.
 
 Four built-in samples: SYN-CANDIDATE, SYN-TREATMENT, SYN-EXCLUDED (lead 500 mg/kg; all pathways excluded under demo criteria), and SYN-MISSING. The selector and Screening samples CSV use identical data.
+
 

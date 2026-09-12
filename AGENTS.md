@@ -1,6 +1,6 @@
 # Project constraints
 
-Build SludgeSense locally in VS Code with Next.js App Router, TypeScript, Tailwind CSS and npm. Preserve existing work and lockfile. Use npm.cmd and npx.cmd on Windows PowerShell; do not change execution policy.
+Build SLEDGE2WORTH locally in VS Code with Next.js App Router, TypeScript, Tailwind CSS and npm. Preserve existing work and lockfile. Use npm.cmd and npx.cmd on Windows PowerShell; do not change execution policy.
 
 ## Scope
 Current delivery is Stage 4: deterministic, explainable screening using the explicitly invented versioned demo profile. Input validation and CSV import are preserved. No regulatory approval, AI model or treatment simulation is implemented. Stage 1 foundation is preserved. Add future stages only when requested. One repository with frontend and server endpoints. Separate validation, screening, treatment and AI modules. No login, database, payment, IoT or marketplace. Future batch data starts in session memory. Demo must work without an API key. Do not publish or deploy unless explicitly requested.
@@ -13,6 +13,7 @@ Keep keys server-side and out of git, logs, browser bundles and exports. Do not 
 
 ## Parameter scope
 Use docs/DATA_REQUIREMENTS.md and src/lib/parameters.ts as the agreed parameter inventory. Preserve units, basis, method, analyte, qualifiers and provenance. Do not silently substitute related measurements or merge distinct biological tests. Runtime validation is not implemented by TypeScript types alone.
+
 
 
 

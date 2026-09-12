@@ -1,5 +1,5 @@
 {
-  "name": "sludgesense",
+  "name": "sledge2worth",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -26,3 +26,4 @@
     "node": ">=20.9.0"
   }
 }
+

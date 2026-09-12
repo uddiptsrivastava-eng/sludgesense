@@ -1,4 +1,4 @@
-# SludgeSense project specification
+# SLEDGE2WORTH project specification
 
 ## Purpose
 Help STP operators explore batch quality, potential reuse pathways, barriers and treatment/testing needs. This hackathon prototype does not certify reuse.
@@ -37,3 +37,4 @@ See docs/STAGE_3.md for the implemented schema, validation, limits, import behav
 
 ## Stage 4 completed
 Deterministic, versioned illustrative screening is implemented. See docs/STAGE_4.md for criteria, provenance, precedence, evidence semantics, verification and limitations. This supersedes earlier unimplemented-screening notes.
+
