@@ -1,4 +1,4 @@
-# SLEDGE2WORTH project specification
+# sludge2worth project specification
 
 ## Purpose
 Help STP operators explore batch quality, potential reuse pathways, barriers and treatment/testing needs. This hackathon prototype does not certify reuse.

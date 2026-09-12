@@ -1,4 +1,4 @@
-# SLEDGE2WORTH
+# sludge2worth
 
 Stage 4 hackathon decision-support prototype: validated batch input, browser-only CSV import and explainable, rule-based reuse screening. All screening thresholds are explicitly invented demonstration assumptions, not regulatory limits. No reuse certification or trained AI model is provided.
 
